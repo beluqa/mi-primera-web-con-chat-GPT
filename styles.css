@@ -1,0 +1,104 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos del encabezado */
+  header {
+    background-color: #D5E8D4; /* Color verde claro */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-family: 'Pacifico', cursive; /* Fuente Pacifico */
+    font-size: 50px;
+    color: #333; /* Color de texto oscuro */
+  }
+  nav {
+    background-color: black; /* Color de fondo negro */
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: white; /* Color de texto blanco */
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilos de la sección de productos */
+  section {
+    background-color: #F4F1E6; /* Color beige claro */
+    padding: 30px;
+    text-align: center;
+  }
+  
+  section h2 {
+    color: #333; /* Color de texto oscuro */
+  }
+  
+  section ul {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  section li {
+    flex-basis: 50%; /* Distribuir los elementos en 2 columnas */
+  }
+  /* Estilos de las imágenes */
+.logo {
+    width: 200px; /* Tamaño deseado para el logo */
+    height: auto; /* Para mantener la proporción de la imagen */
+  }
+  .productos {
+    width: 200px;
+    height: auto; /* Para mantener la proporción de la imagen */
+  }  
+  
+  /* Estilos de la sección de horario de apertura */
+  section:nth-child(3) {
+    background-color: #C8D9C5; /* Color verde más oscuro */
+  }
+  
+  section:nth-child(3) p {
+    color: #333; /* Color de texto oscuro */
+  }
+  
+  /* Estilos de la sección de ubicación */
+  section:nth-child(4) {
+    background-color: #E9E4D4; /* Color beige más oscuro */
+  }
+  
+  section:nth-child(4) p {
+    color: #333; /* Color de texto oscuro */
+  }
+  
+  /* Estilos del pie de página */
+  footer {
+    background-color: #D5E8D4; /* Color verde claro */
+    padding: 10px;
+    text-align: center;
+  }
+  
+  footer p {
+    color: #333; /* Color de texto oscuro */
+  }
+.producto {background-color: #C8D9C5; color: #333;
+display: flexbox; text-align: center;}

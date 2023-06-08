@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tienda en línea - Café de Especialidad</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="producto">
+    <header>
+        <nav>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="quienessomos.html">Quienes somos</a></li>
+            <li><a href="nuestrocafe.html">Nuestro café</a></li>
+            <li><a href="tienda.html">Tienda online</a></li>
+            <li><a href="#Contacto">Contáctanos</a></li>
+          </ul>
+        </nav>
+    </header>    
+  <h1>Bienvenido a nuestra tienda en línea</h1>
+  
+  <h2>Productos disponibles</h2>
+  
+  <div class="producto">
+    <h3>Cafe Molido x 1kg</h3>
+    <img src="imagenes/paper-bag-with-powder-coffee-beans.jpg" alt="cafe molido" class="productos">
+    <p>Cafe colombiano premium</p>
+    <p>Precio: $8,99</p>
+    <button>Agregar al carrito</button>
+  </div>
+  
+  <div class="producto">
+    <h3>Cafe en grano x 1kg</h3>
+    <img src="imagenes/coffee-bags-with-coffee-beans-around.jpg" alt="Imagen del producto 2" class="productos">
+    <p>Cafe tostado para moler</p>
+    <p>Precio: $7,99</p>
+    <button>Agregar al carrito</button>
+  </div>
+  
+  <!-- Repite la estructura anterior para cada producto disponible en tu tienda -->
+  
+  <h2>Carrito de compras</h2>
+  
+  <div class="carrito">
+    <!-- Aquí se mostrarán los productos agregados al carrito -->
+  </div>
+  
+  <h2>Información del cliente</h2>
+  
+  <form>
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+    
+    <label for="email">Correo electrónico:</label>
+    <input type="email" id="email" name="email" required>
+    
+    <label for="direccion">Dirección de envío:</label>
+    <input type="text" id="direccion" name="direccion" required>
+    
+    <!-- Agrega más campos según tus necesidades, como método de pago, etc. -->
+    
+    <button type="submit">Realizar compra</button>
+  </form>
+  <footer>
+    <p id="Contacto">Contacto: info@britocafe.com</p>
+  </footer>
+  
+  <script>
+    // Agrega scripts de JavaScript para funcionalidades adicionales, como actualizar el carrito de compras, realizar cálculos, etc.
+  </script>
+</body>
+</html>
